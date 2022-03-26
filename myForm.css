@@ -7,6 +7,10 @@ h1 {
 h2 {
   color: rgb(131, 89, 34);
 }
+
+h3 {
+  color: rgb(131, 89, 34);
+}
 /* id selector 指定特定id選擇器 */
 #long {
   color: rgb(206, 83, 83);
