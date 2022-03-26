@@ -1,7 +1,7 @@
 /* element selector  標籤選擇器 */
 
 h1 {
-  color: rgb(131, 89, 34);
+  color: rgb(131, 89, 34);;;;;
 }
 
 h2 {
@@ -22,7 +22,7 @@ h3 {
 }
 
 div.google a {
-  color: rgb(5, 139, 0);
+  color: rgb(5, 139, 0);;;;;
 }
 #text22 {
   font-family: "Comforter Brush", cursive;
