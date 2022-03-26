@@ -1,0 +1,73 @@
+/* element selector  標籤選擇器 */
+
+h1 {
+  color: rgb(131, 89, 34);
+}
+
+/* id selector 指定特定id選擇器 */
+#long {
+  color: rgb(206, 83, 83);
+}
+/* class selector 類選擇器 */
+/* class裡面可以用2個以上的class，例如 <h1 class="text text1" ></h1>兩個class空格後直接放在一起就可以*/
+.text {
+  color: chocolate;
+}
+
+div.google a {
+  color: rgb(5, 139, 0);
+}
+#text22 {
+  font-family: "Comforter Brush", cursive;
+  font-family: "Dancing Script", cursive;
+  font-family: "Long Cang", cursive;
+}
+
+body {
+  background-image: url(./images/background.jpg);
+}
+button.tace {
+  padding: 2rem;
+}
+
+.tace {
+  background-color: darksalmon;
+  color: brown;
+  padding: 2rem;
+  width: 50vh;
+  height: 30vh;
+}
+.tace:hover {
+  background-color: chocolate;
+}
+/*例如可以h1.redtext{color:(xxx);}就變成說指定h1標籤並且有class叫redtext的類做變更*/
+
+/* grouping selector 多重改寫*/
+/* 例如 h1,h2 {color:(XXXX);} */
+
+/* 
+在HTML的部分：
+<div class="link1">
+    <a href="XXXXXXX">Google連結</a>
+</div>  
+
+在CSS的部分：
+div.link1 a{
+    color:(XXX);
+}
+指定div裡面的link的a做改變
+*/
+
+/* attribute selector */
+/* 例如想把在HTML裡的input type="text"的文字輸入都顯示成紅色的話 */
+/* 
+input[type="text"] {
+  color:(XXX);
+} 
+*/
+
+/*Pesudo Classes假定或是特定狀態會出現的動作*/
+/* 例如 如過是用hove的話代表鼠標移動那的話會出現動作
+input[type="text"]:hove {
+color:(XXX);
+} */
